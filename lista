@@ -1,0 +1,9 @@
+ue=["Ireland", "Estonia", "Denmark", "Italy", "Slovenia"]
+print(ue[3:3]) #wypisze tylko " [] "
+print (ue[-2]) #wypisze przedostatni element czyli "Italy"
+print(ue[-6]) # wyrzuci błąd bo tablica nie jest na tyle długa "list index out of range"
+print(ue[0:5]) #wypisze cała tablice " 'Ireland', 'Estonia', 'Denmark', 'Italy', 'Slovenia' "
+print(ue[0:3], ue[3:5]) #wypisze dwie tablice w pierwszej będzie pierwsze 3 eleenty a w drugiej dwa ostatnie " [ 'Ireland', 'Estonia', 'Denmark'] ['Italy', 'Slovenia'] "
+print(ue[3:-1]) #wypisze " ['Italy'] "
+print(ue[-2:-4]) #wypisze tylko " [] "
+print(ue[-4:-2]) #wypisze " [ 'Estonia', 'Denmark'] "
